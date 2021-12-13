@@ -15,13 +15,15 @@ Simple Virtual Scavenger Hunt implemented as a React Single page Application pro
  - express.js as web server
  - react for front end
 	 - react-spring (for animations to look nicer)
-	 - tailwind-css (UI)
+	 - bootstrap (UI)
  - (mongoose) MongoDB for content storage
  - redis for password look up (using remote redis instance for experiementation, but local always works too)
  - dotenv (for configuring credential parameters)
 
 # .dotenv file
-
+    # Used to determine whether to use port 443
+    RUN_DEV=true
+    
     # Content Connection String (MongoDB)
     MONGO_DB=YOUR_CONNECTION_STRING
     
