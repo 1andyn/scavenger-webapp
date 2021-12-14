@@ -1,7 +1,19 @@
 {
+  "name": "scavenger-webapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts:": {
+    "start": "node backend/server",
+    "heroku": "echo unimplemented"
+  },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.1",
     "redis": "^4.0.0"
   }
 }
